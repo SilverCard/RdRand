@@ -2,7 +2,7 @@ using namespace System;
 
 #pragma once
 namespace SilverCard {
-	ref class RandomGeneratorException : Exception
+	public ref class RandomGeneratorException : Exception
 	{
 	public:
 		RandomGeneratorException() : Exception("rdrand did not generate a number.") {}
